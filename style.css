@@ -1,0 +1,14 @@
+/* 
+width adjusted by wrapper
+relative position and margin auto to center wrapper element 
+*/
+.wrapper {
+    width: 50%;
+    margin: auto;
+}
+/* 
+important required to override the default widget height styling
+*/
+#reputation-widget-0 {
+    height: 300px !important;
+}
