@@ -8,6 +8,9 @@ relative position and margin auto to center wrapper element
 }
 /* 
 important required to override the default widget height styling
+
+I chose to modify the widget iframe height directly rather than controlling height within the .wrapper element in order to preserve the bottom border. 
+When managing height in the wrapper I used overflow: hidden, which was cutting off the bottom border
 */
 #reputation-widget-0 {
     height: 300px !important;
